@@ -1,0 +1,14 @@
+Hecho por:
+    - Carlos Andrés Cáceres (202126639)
+    - Diego Fernando Victoria (201941366)
+Proyecto final - Programación interactiva - Universidad del Valle
+
+1. La carpeta "Implementación" contiene el proyecto "Cliente" y "Servidor" y la base de datos, sólo se debe ejecutar el servidor en una ocasión, y clientes los que sean necesarios, el ejecutable del cliente se encuentra en la carpeta "Cliente", en "dist".
+
+2. El proyecto "Servidor", presenta un pequeño pero leve fallo en la ventana de información de este, ya que no logramos conseguir que los mensajes que llegan con información se muestren.
+
+3. Para cambiar el usuario, contraseña y puerto de la Bd, debe ingresar a la clase "BD", y modificar estos parámetros en las líneas 23, 24 y 25.
+
+Usuario actual: postgres
+Contraseña actual: Diego2021 - Carlitos0229
+URL actual: jdbc:postgresql://localhost:" + puertoBD + "/BD.
